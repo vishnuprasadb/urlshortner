@@ -41,3 +41,9 @@ long_url = shortener.original(short_url)
 1. Copy `getLongUrl.py` from scripts folder to root directory using this command `cp scripts/getLongUrl.py .`
 2. Run the script `getLongUrl.py` with an argument which is the "short url". For Example:
 	`python createShortUrl.py "https://xyz.com/aABadf"`
+
+## Bulk Shortening results
+
+Used the file `test_bulk_file.txt` to upload `100000` records and the output is found in `test_bulk_file-output.txt`.
+All the url are shortned without crashing. Updating the database as well to check the results.
+Also I have cross verified the entries randomly and its perfectly fine.
